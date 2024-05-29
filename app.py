@@ -23,14 +23,14 @@ def home():
         
         msg = MIMEMultipart()
         msg['Subject'] = "Customer Lead"
-        msg['From'] = 'quadgeter@gmail.com'
+        msg['From'] = 'wright1automatedservice@gmail.com'
         msg['To'] = 'quadgeter@gmail.com'
         msg.attach(MIMEText(text))
         
         s = smtplib.SMTP('smtp.gmail.com', 587) 
         s.ehlo() 
         s.starttls() 
-        s.login('wright1automatedservice@gmail.com', 'AutoBotsRollout1')
+        s.login('wright1automatedservice@gmail.com', 'wndw somm klla xide')
         
         s.sendmail(from_addr='wright1automatedservice@gmail.com', to_addrs='quadgeter@gmail.com', msg=msg.as_string())
         s.quit()
