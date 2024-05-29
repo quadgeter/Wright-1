@@ -126,6 +126,15 @@
         border: none;
         float: none;
     }
+
+    .about_img img{
+        max-width: 140px;
+    }
+
+    .about-section{
+        text-align: center;
+    }
+
     .menu-area-main {
         height: 45px;
         overflow-y: auto;

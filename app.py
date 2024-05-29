@@ -32,7 +32,7 @@ def home():
         s.starttls() 
         s.login('wright1automatedservice@gmail.com', 'wndw somm klla xide')
         
-        s.sendmail(from_addr='wright1automatedservice@gmail.com', to_addrs='quadgeter@gmail.com', msg=msg.as_string())
+        s.sendmail(from_addr='wright1automatedservice@gmail.com', to_addrs='wright1contractors@gmail.com', msg=msg.as_string())
         s.quit()
         
         
