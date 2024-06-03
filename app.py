@@ -19,7 +19,7 @@ def home():
         from email.mime.text import MIMEText
         from email.mime.multipart import MIMEMultipart
         
-        text = f"""============\nCustomer Lead Generated From https://quadgeter.github.io/Wright-1/\n==============\nCustomer Name: {cust_name}\nCustomer Email: {cust_email}\nCustomer Phone: {cust_phone}\nService Message: {message}\n=========="""
+        text = f"""============\nCustomer Lead Generated From https://wright1contractors.com/\n==============\nCustomer Name: {cust_name}\nCustomer Email: {cust_email}\nCustomer Phone: {cust_phone}\nService Message: {message}\n=========="""
         
         msg = MIMEMultipart()
         msg['Subject'] = "Customer Lead"
